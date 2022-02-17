@@ -8,15 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace YearInPixelsGui
+namespace GridPanels
 {
-    public partial class View : Form
+    public partial class GridPanel : UserControl
     {
-        public View()
+        public GridPanel()
         {
             InitializeComponent();
-            this.Text = "Year in Pixels";
         }
-
     }
 }
