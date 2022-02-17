@@ -1,7 +1,7 @@
 ﻿
 namespace YearInPixels
 {
-    partial class Form1
+    partial class View
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,10 +29,17 @@ namespace YearInPixels
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // View
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1431, 1150);
+            this.Name = "View";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
